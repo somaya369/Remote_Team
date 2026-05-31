@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Remote Team Workspace
 
-## Getting Started
+A modern and responsive workspace platform built with Next.js for managing remote teams, projects, tasks, and meetings.
 
-First, run the development server:
+## Overview
+
+Remote Team Workspace is designed to help distributed teams stay organized and productive through a clean and user-friendly interface. The application demonstrates modern frontend development practices using Next.js App Router, reusable React components, and responsive design.
+
+## Features
+
+### Dashboard
+
+* Welcome section
+* Statistics cards
+* Recent activity
+* Project overview
+* Upcoming meetings
+
+### Projects
+
+* Project listing page
+* Reusable project cards
+* Project status tracking
+* Technology tags
+* Responsive layout
+
+### Dynamic Project Details
+
+* Dynamic routing using App Router
+* Full project information
+* Team assignment
+* Deadlines
+* Technologies used
+
+### Team Members
+
+* Team member cards
+* Roles and responsibilities
+* Skills overview
+* Avatar placeholders
+
+### Meetings
+
+* Upcoming meetings
+* Meeting types
+* Participants
+* Meeting schedules
+
+### Contact Support
+
+* Contact form
+* User-friendly interface
+* Responsive design
+
+### Additional Features
+
+* Dark Mode / Light Mode
+* Responsive Navigation
+* Modern UI Design
+* Reusable Components
+
+## Technologies Used
+
+* Next.js
+* React
+* JavaScript
+* Tailwind CSS
+* App Router
+
+## Project Structure
+
+```bash
+app/
+├── dashboard/
+├── projects/
+│   └── [id]/
+├── tasks/
+├── team/
+├── meetings/
+├── contact/
+
+components/
+├── Navbar.jsx
+├── Footer.jsx
+├── ProjectCard.jsx
+├── StatCard.jsx
+├── MemberCard.jsx
+├── MeetingCard.jsx
+└── ThemeToggle.jsx
+
+data/
+├── projects.js
+├── members.js
+└── meetings.js
+```
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/remote-team-workspace.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd remote-team-workspace
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open in browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Learning Objectives
 
-## Learn More
+This project demonstrates:
 
-To learn more about Next.js, take a look at the following resources:
+* Component-based architecture
+* Reusable React components
+* Props usage
+* Dynamic routing
+* Responsive design
+* Next.js App Router
+* Frontend project organization
+* Modern UI development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Somaya Ahmadi
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was created for educational purposes as part of the Afghan Geeks Frontend Development Program.
