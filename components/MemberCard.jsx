@@ -1,21 +1,31 @@
 export default function MemberCard({ member }) {
   return (
     <div className="card p-6">
-      <div className="w-16 h-16 rounded-full bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-300 flex items-center justify-center text-2xl font-bold mb-4">
-        {member.name.charAt(0)}
+      <div className="flex items-center gap-4 mb-5">
+        <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white flex items-center justify-center text-2xl font-bold">
+          {member.name.charAt(0)}
+        </div>
+
+        <div>
+          <h3 className="text-xl font-bold text-slate-900 dark:text-white">
+            {member.name}
+          </h3>
+
+          <p className="text-blue-600 dark:text-blue-400 font-medium">
+            {member.role}
+          </p>
+        </div>
       </div>
 
-      <h3 className="text-xl font-bold text-slate-900 dark:text-white">
-        {member.name}
-      </h3>
-
-      <p className="text-blue-600 dark:text-blue-400 font-medium">
-        {member.role}
+      <p className="text-slate-600 dark:text-slate-300 mb-5">
+        {member.bio}
       </p>
 
-      <p className="text-slate-600 dark:text-slate-300 mt-2">{member.bio}</p>
+      <h4 className="font-semibold text-slate-900 dark:text-white mb-3">
+        Skills
+      </h4>
 
-      <div className="flex flex-wrap gap-2 mt-4">
+      <div className="flex flex-wrap gap-2">
         {member.skills.map((skill) => (
           <span
             key={skill}
