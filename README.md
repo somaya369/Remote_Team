@@ -121,7 +121,7 @@ http://localhost:3000
 ```
 
 ## Author
-Azadeh Ahmadi
+Somaya Ahmadi
 
 ## Purpose
 
