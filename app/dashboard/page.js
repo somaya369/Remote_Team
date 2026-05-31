@@ -21,7 +21,7 @@ export default function DashboardPage() {
           </p>
 
           <h1 className="text-4xl md:text-6xl font-black mt-3 leading-tight">
-            Welcome back, Azadeh 👋
+            Welcome back,Somaya 👋
           </h1>
 
           <p className="mt-4 text-blue-100 max-w-2xl text-lg">
